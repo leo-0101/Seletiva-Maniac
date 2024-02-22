@@ -1,0 +1,118 @@
+body, html {
+  margin: 0;
+  height: 100%;
+  color: #777;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.conteudo {
+  color: #777;
+  padding: 50px 80px;
+  text-align: justify;
+  background-color: #fff;
+}
+
+h3 {
+  color: #777;
+  text-align: center;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+/* PARALLAX IRRUU */
+.caixa1,
+.caixa2,
+.caixa3,
+.caixa4,
+.caixa5 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.title-color {
+  color: #b432ce;
+}
+
+.conteudo-titulo {
+  position: absolute;
+  left: 0;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+  display: inline-block;
+  color: #000; 
+  padding: 14px;
+  font-size: 27px;
+  letter-spacing: 3px;
+  border-radius: 5px;
+  flex-direction: column;
+  background-color: #fff;
+  text-transform: uppercase;
+}
+
+/* .sub-titulo {
+  display: inline-block;
+  margin-top: 5px;
+  color: #000; 
+  padding: 13px;
+  font-size: 15px;
+  border-radius: 5px;
+  flex-direction: column;
+  background-color: #fff;
+} */
+
+/* .conteudo {
+  text-align: justify;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.conteudo {
+  text-align: justify;
+  width: 100%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.conteudo a {
+  text-decoration: none;
+}
+
+.conteudo a:hover {
+  text-decoration: underline;
+}
+
+/* Background Images */
+
+.caixa1 {
+  background-image: url(img/logo.jpg);
+}
+
+.caixa2 {
+  background-image: url(img/primeiraformacao.jpeg);
+}
+
+.caixa3 {
+  background-image: url(img/formacaoatual.jpg);
+}
+
+.caixa4 {
+  background-image: url(img/lavienrose.jpeg);
+}
